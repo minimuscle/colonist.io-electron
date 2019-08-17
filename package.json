@@ -1,0 +1,24 @@
+{
+    "name": "colonist.io-electron",
+    "version": "1.0.0",
+    "description": "A colonist.io hosted by Electron",
+    "main": "main.js",
+    "dependencies": {
+        "electron": "^6.0.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/minimuscle/colonist.io-electron.git"
+    },
+    "author": "minimuscle",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/minimuscle/colonist.io-electron/issues"
+    },
+    "homepage": "https://github.com/minimuscle/colonist.io-electron#readme"
+}
