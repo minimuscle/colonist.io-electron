@@ -4,7 +4,7 @@
     "description": "A colonist.io hosted by Electron",
     "main": "main.js",
     "dependencies": {
-        "electron": "^6.0.2"
+        "electron": "^7.2.4"
     },
     "devDependencies": {},
     "scripts": {
