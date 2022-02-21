@@ -1,12 +1,13 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, BrowserView } = require('electron')
 
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
-    frame: false
+    fullscreen: true,
+    titleBarStyle: "hidden",
+    titleBarOverlay: true,
   })
-  win.maximize();
 
   win.loadURL('https://colonist.io')
 }
